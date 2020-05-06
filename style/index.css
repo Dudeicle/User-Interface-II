@@ -53,6 +53,12 @@ nav a {
     margin: 20px;
     padding: .5%;
 }
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+}
 
 /* section 1 style */
 
@@ -108,12 +114,14 @@ nav a {
     display: flex;
     flex-wrap: nowrap;
     margin: 2%;
+    border: 5px solid black;
 }
 
 #line2 {
     display: flex;
     flex-wrap: nowrap;
     margin: 2%;
+    border: 5px solid black;
 }
 #line-img1 {
     height: 500px;
@@ -157,8 +165,24 @@ nav a {
     width: 500px;
     margin: 1%;
 }
+
 /* footer style */
 
-footer {
-    
+#foot-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+#foot-h3 {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 1%;
+}
+#foot-button {
+    margin: 1%;
+}
+#foot-links {
+    font-size: 35px;
+    margin: 2%;
 }
