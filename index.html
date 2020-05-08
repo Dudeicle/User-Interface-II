@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Brian's Portfolio</title>
     <link rel="stylesheet" href="style/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
 
 <body>
+    
     <header id="home">
-        <div>
-            <h1>Brian P. Griffiths</h1>
+        <div id="header-div">
+            <h1 id="header-h1">Brian P. Griffiths</h1>
         
-            <nav>
-                <ul class="links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
+            <nav id="header-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#projects">Projects</a>    
             </nav>
 
         </div>
@@ -49,6 +49,7 @@
     
     <section id="projects">
 
+        <div id="project-column1">
             <div id="line1">
                 <div id="line-img1"><img src="https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"/></div>
                 <div id="line-img2"><img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"/></div>
@@ -61,6 +62,9 @@
                 <p>Copper</p>
                 <p>Silicon</p>
             </div>
+        </div>
+        
+        <div id="project-column2">
             <div id="line2">
                 <div id="line-img5"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"/></div>
                 <div id="line-img6"><img src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"/></div>
@@ -73,6 +77,8 @@
                 <p>Div</p>
                 <p>Span</p>
             </div>
+        </div>
+
     </section>
 
     <footer id="contact">
@@ -82,7 +88,7 @@
                 <h3>Like what you see?</h3>
             </div>
             <div id="foot-button">
-                <button onclick = "location.href='#contact';"> Contact Me </button>
+                <button onclick = "location.href='#contact';"> Contact Me! </button>
             </div>
             <div id="foot-links">
                 <a href="https://facebook.com">FB</a>
